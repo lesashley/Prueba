@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!--<div id="fade" class="overlay" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="display: none;"></div>-->
+  <!--<div id="fade" class="overlay"></div>>-->
+  <div id="light" class="modal" style="display:none">
+     <p>Aquí esta el contenido que quieres mostrar
+       <input type="text" id="numero">
+       <button type="submit" id="enviar" >Add</button>
+       <button id="cerrar">cerrar</button>
+   </p>
+  </div>
+  <p>Con un simple
+    <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">simple click</a>
+    Podras despegar la ventana modal
+  </p>
+
+  <script type="text/javascript" src="assets/js/app.js">
+
+  </script>
+</body>
+</html>
